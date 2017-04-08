@@ -1,31 +1,39 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8"/>
-<title>фільми</title>
-</head>
-<style>
- .fig {
+ <head>
+  <meta charset="utf-8">
+  <title>Фотография с подписью</title>
+  <style>
+   .fig {
     display: block; /* Блочный элемент (для старых браузеров) */
     text-align: center; /* Выравнивание по центру */
     font-style: italic; /* Курсивное начертание */
     margin-top: 0; /* Отступ сверху */
     margin-bottom: 5px; /* Отступ снизу */
     color: #666; /* Цвет подрисуночной подписи */
-	 background-image: url("https://wpapers.ru/wallpapers/avto/BMW/10937/1366x768_BMW-M3-e92.jpg");  	
- </style>
-
-
-
-<p><a href="page1.html"> <font size="7" color="green" face="Arial">ден крутий</font></a></P>
+   }
+  </style>
+  <!--[if lt IE 9]>
+   <script>
+    document.createElement('figure');
+    document.createElement('figcaption');
+   </script>
+  <![endif]-->
+ </head>
+ <body>
+	 <p><a href="page1.html"> <font size="7" color="green" face="Arial">ден крутий</font></a></P>
 <p><a href="page2.html"> <font size="7" color="green" face="Arial">фільми</font></a></P>
 <iframe width="854" height="480" src="https://www.youtube.com/embed/N-hXDtbfFQY" frameborder="0" allowfullscreen></iframe>
 <iframe width="854" height="480" src="https://www.youtube.com/embed/X2BzxSHIR0M" frameborder="0" allowfullscreen></iframe>
 <iframe width="854" height="480" src="https://www.youtube.com/embed/tMjHvoUNZW8" frameborder="0" allowfullscreen></iframe>
     
-<h1>КЛИМЕНКО ДЕНИС</h1>
-<p>2004
-</p>
-</body>
+  <figure class="fig">
+   <img src="images/photo2.jpg" width="320" height="179" 
+   alt="Барельеф">
+   <figcaption>
+   
+   </figcaption>
+  </figure>
+ </body>
 </html>
